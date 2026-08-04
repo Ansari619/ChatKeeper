@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ChatKeeper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wa_dark_green</item>
+        <item name="colorPrimaryVariant">@color/wa_teal_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/wa_light_green</item>
+        <item name="colorSecondaryVariant">@color/wa_light_green</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/wa_dark_green</item>
+        <item name="android:windowBackground">@color/wa_chat_bg</item>
+    </style>
+
+    <style name="Theme.ChatKeeper.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextColor">@color/white</item>
+    </style>
+</resources>
